@@ -7,34 +7,44 @@ import java.util.Properties;
 import java.io.InputStream;
 
 public class UserDAO {
-//    private Connection getConnection() throws SQLException {
-//        Properties props = new Properties();
-//        try (InputStream input = getClass().getClassLoader().getResourceAsStream("db.properties")) {
-//            props.load(input);
-//        } catch (Exception e) {
-//            throw new SQLException("Failed to load database properties", e);
-//        }
-//        return DriverManager.getConnection(
-//                props.getProperty("db.url"),
-//                props.getProperty("db.username"),
-//                props.getProperty("db.password")
-//        );
+
+//private Connection getConnection() throws SQLException {
+//    Properties props = new Properties();
+//    try (InputStream input = getClass().getClassLoader().getResourceAsStream("db.properties")) {
+//        props.load(input);
+//    } catch (Exception e) {
+//        throw new SQLException("Failed to load database properties", e);
 //    }
-private Connection getConnection() throws SQLException {
+//
+//    try {
+//        // Add this line to explicitly load the driver
+//        Class.forName("com.mysql.cj.jdbc.Driver");
+//    } catch (ClassNotFoundException e) {
+//        throw new SQLException("MySQL Driver not found", e);
+//    }
+//
+//    return DriverManager.getConnection(
+//            props.getProperty("db.url"),
+//            props.getProperty("db.username"),
+//            props.getProperty("db.password")
+//    );
+//}
+// In BillDAO.java, CustomerDAO.java, ItemDAO.java, UserDAO.java
+protected Connection getConnection() throws SQLException {
     Properties props = new Properties();
     try (InputStream input = getClass().getClassLoader().getResourceAsStream("db.properties")) {
+        if (input == null) {
+            throw new SQLException("Database properties file not found");
+        }
         props.load(input);
     } catch (Exception e) {
         throw new SQLException("Failed to load database properties", e);
     }
-
     try {
-        // Add this line to explicitly load the driver
         Class.forName("com.mysql.cj.jdbc.Driver");
     } catch (ClassNotFoundException e) {
-        throw new SQLException("MySQL Driver not found", e);
+        throw new SQLException("MySQL JDBC Driver not found", e);
     }
-
     return DriverManager.getConnection(
             props.getProperty("db.url"),
             props.getProperty("db.username"),

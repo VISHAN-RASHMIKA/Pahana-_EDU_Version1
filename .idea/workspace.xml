@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03a806d0-3369-4c7d-b803-ef999cd46564" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/dao/BillDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/dao/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/model/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/model/BillItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/AddItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/CalculateBillServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/DeleteItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/DisplayAccountsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/DisplayItemsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/EditItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addItem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calculateBill.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/displayAccounts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/displayItems.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/editItem.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/help.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/printBill.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/dao/BillDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/dao/CustomerDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/dao/ItemDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/dao/UserDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/AddCustomerServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/CalculateBillServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/DeleteItemServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/DisplayAccountsServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/DisplayItemsServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/EditCustomerServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/EditItemServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/LoginServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pahana/servlet/LogoutServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.smarttomcat/billingsystem/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.smarttomcat/billingsystem/conf/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.smarttomcat/billingsystem/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.smarttomcat/billingsystem/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/AddCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/AddCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/EditCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/EditCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pahana/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addCustomer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editCustomer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31QAZEt1GEDdNIsnQlBX5joaczQ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "Smart Tomcat.Tomcat.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\V I S H A N\.SmartTomcat\billingsystem\billingsystem" />
+      <option name="contextPath" value="/billingsystem" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.107" />
+          <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-9.0.107" />
+          <option name="version" value="9.0.107.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="billingsystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\V I S H A N\.SmartTomcat\billingsystem\billingsystem" />
+      <option name="contextPath" value="/billingsystem" />
+      <option name="docBase" value="C:\Users\V I S H A N\Desktop\billingsystem\src\main\webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.107" />
+          <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-9.0.107" />
+          <option name="version" value="9.0.107.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="billingsystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a806d0-3369-4c7d-b803-ef999cd46564" name="Changes" comment="" />
+      <created>1755445987861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755445987861</updated>
+      <workItem from="1755446003487" duration="5328000" />
+      <workItem from="1755488924475" duration="2895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

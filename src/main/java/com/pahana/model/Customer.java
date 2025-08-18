@@ -1,18 +1,21 @@
+
+
+
 package com.pahana.model;
 
 public class Customer {
     private String accountNumber;
-    private String name;
+    private String firstName;
+    private String lastName;
     private String address;
     private String telephone;
-    private int unitsConsumed;
 
-    public Customer(String accountNumber, String name, String address, String telephone, int unitsConsumed) {
+    public Customer(String accountNumber, String firstName, String lastName, String address, String telephone) {
         this.accountNumber = accountNumber;
-        this.name = name;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.address = address;
         this.telephone = telephone;
-        this.unitsConsumed = unitsConsumed;
     }
 
     public String getAccountNumber() {
@@ -23,12 +26,20 @@ public class Customer {
         this.accountNumber = accountNumber;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getAddress() {
@@ -45,13 +56,5 @@ public class Customer {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
-    }
-
-    public int getUnitsConsumed() {
-        return unitsConsumed;
-    }
-
-    public void setUnitsConsumed(int unitsConsumed) {
-        this.unitsConsumed = unitsConsumed;
     }
 }
